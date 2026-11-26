@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "date": "2026-11-25",
+  "passed": true,
+  "repository": "JimLiu/open-artifact-update-drill-20261125-a1cd84",
+  "fixtureOnly": true,
+  "productionVersion": "0.16.2",
+  "appId": "dev.openartifact.desktop.update-drill.r20261125-a1cd84",
+  "from": "0.16.1",
+  "to": "0.16.4",
+  "signerSha1": "624CAB8BFCA26CA9F77A5BC91AA93E3C0A91919A",
+  "teamId": "22FY8U8BF9",
+  "baseZipSha256": "35dc36ebe54edced34442580b008586b4f0fb76efa4858b3f37c006e3920e530",
+  "targetZipSha256": "e972a2bbe3674b9ec9d2443cb4c8f81406f3b873791e1a6ee193fc08e33ba11e",
+  "appNotarization": {
+    "base": "49d86a9a-683b-448e-b46f-5836a5c36ba4",
+    "target": "ffc3d800-da8f-4b17-bcba-24ff6e34675b"
+  },
+  "dmgNotarization": {
+    "base": "8ed6a362-8c96-4786-afa6-23787dc8f566",
+    "target": "cff43cd6-5d7d-4f15-ac39-e9c527558ed7"
+  },
+  "verified": {
+    "anonymousGitHubDownload": true,
+    "realProgress": true,
+    "downloadCancellation": true,
+    "partialCacheCleanup": true,
+    "sha256MismatchRejected": true,
+    "nativeDamagedSignatureRejected": true,
+    "nativeRestartInstalledTarget": true,
+    "unsavedWorkCancelPreservedBaseline": true,
+    "unsavedChangesRecoveredAndSaved": true,
+    "savedDocumentPreserved": true,
+    "installedSignatureVerified": true,
+    "installedNotarizationVerified": true,
+    "gatekeeperVerified": true,
+    "installedBytesMatchedTarget": true,
+    "noDowngrade": true
+  },
+  "progressCases": [
+    {
+      "kind": "checksum-mismatch",
+      "version": "0.16.2",
+      "samples": 141,
+      "cancelled": true,
+      "terminal": "error",
+      "layout": {
+        "visible": true,
+        "parent": "sidebar-bottom",
+        "rightOfSettings": true,
+        "bottomAligned": true
+      }
+    },
+    {
+      "kind": "damaged-signature",
+      "version": "0.16.3",
+      "samples": 148,
+      "cancelled": false,
+      "terminal": "error",
+      "layout": {
+        "visible": true,
+        "parent": "sidebar-bottom",
+        "rightOfSettings": true,
+        "bottomAligned": true
+      }
+    },
+    {
+      "kind": "valid-update",
+      "version": "0.16.4",
+      "samples": 131,
+      "cancelled": false,
+      "terminal": "ready",
+      "layout": {
+        "visible": true,
+        "parent": "sidebar-bottom",
+        "rightOfSettings": true,
+        "bottomAligned": true
+      }
+    }
+  ],
+  "installedAppAsarSha256": "091164a5505f34cf4216372485941c3ef455287d29796f15bf5a40537c7a1c0c",
+  "note": "The progress-enabled signed baseline and immutable signed target use a dedicated app identity/profile and test repository. The target ZIP is reused unchanged; production releases are separate."
+}

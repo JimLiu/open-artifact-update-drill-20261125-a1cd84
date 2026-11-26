@@ -11,3 +11,7 @@ These are test fixtures, not production Open Artifact releases. They use a dedic
 - Successful target: 0.16.4
 
 A verification report will be added after the native rehearsal completes.
+
+## Verified result
+
+The signed native update rehearsal passed, including real download progress, cancellation, SHA-256 rejection, native signature rejection, unsaved-work cancellation/recovery, restart installation and retained document data. Both test versions use the same Developer ID identity. [Verification details](verification.json).
